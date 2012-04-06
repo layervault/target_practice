@@ -1,3 +1,3 @@
-module TargetPractice
+class TargetPractice
   VERSION = '0.0.2'
 end
