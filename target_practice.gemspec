@@ -17,6 +17,5 @@ Gem::Specification.new do |s|
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.summary = %q{A Ruby library for running TargetPractice (.tp) test suites.}
-  s.test_files = Dir.glob("test/**/*")
 end
 
