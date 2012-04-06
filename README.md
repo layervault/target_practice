@@ -94,4 +94,4 @@ file defined in the JSON, it should have the height attribute equal to 1. If not
 
 ## Authors
 
-TargetPractice was developed by [Kelly Sutton](http://github.com/kellysutton) for [LayerVault](http://layervault.com)
+TargetPractice was developed by [Kelly Sutton](http://github.com/kellysutton) for [LayerVault](http://layervault.com).
