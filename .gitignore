@@ -1,0 +1,8 @@
+.DS_Store
+sftp-config.json
+node_modules
+.bundle
+Gemfile.lock
+tmp
+.cake_task_cache
+output

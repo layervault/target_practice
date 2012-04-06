@@ -1,7 +1,9 @@
-require 'rake'
+#!/usr/bin/env ruby
+$LOAD_PATH << '.'
+
 require 'rubygems'
+
 require 'json'
-require 'psd'
 require 'minitest/unit'
 
 TMP_FILE = "./tmp/out.png"

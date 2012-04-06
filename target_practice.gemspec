@@ -1,4 +1,4 @@
-require './lib/psd/version'
+require './lib/target_practice/version'
 
 Gem::Specification.new do |s|
   s.name = %q{target_practice}
@@ -10,7 +10,6 @@ Gem::Specification.new do |s|
   s.email = %q{kelly@layervault.com}
   s.files = Dir.glob("lib/**/*") + [
      "README.md",
-     "Rakefile",
      "Gemfile",
      "target_practice.gemspec",
   ]
