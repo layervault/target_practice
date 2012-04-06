@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
      "Gemfile",
      "target_practice.gemspec",
   ]
-  s.homepage = %q{http://github.com/kellysutton/psd.rb}
+  s.homepage = %q{http://github.com/layervault/target_practice}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.summary = %q{A Ruby library for running TargetPractice (.tp) test suites.}
