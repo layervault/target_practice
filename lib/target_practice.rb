@@ -5,6 +5,7 @@ require 'rubygems'
 
 require 'json'
 require 'minitest/unit'
+require 'target_practice/target_practice_test_case'
 
 TMP_FILE = "./tmp/out.png"
 TP_ROOT = "./test/psd.tp/"
