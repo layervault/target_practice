@@ -6,3 +6,4 @@ Gemfile.lock
 tmp
 .cake_task_cache
 output
+*.gem
