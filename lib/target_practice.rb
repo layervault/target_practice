@@ -25,7 +25,7 @@ class TargetPractice
   def run_tests
     files = FileList[@pattern].to_a
     test = @test_class.new(:tests_against_files)
-    test.files = files
+    test.files = files.map!{ |file| JSON.parse(File.open(file, 'r').read) }
     MiniTest::Unit.new.run
   end
 end
