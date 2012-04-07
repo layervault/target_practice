@@ -1,4 +1,6 @@
 class TargetPracticeTestCase < MiniTest::Unit::TestCase
+  @@meta_assertions = {}
+
   def setup
     assert @@files, "File data was not set!"
   end
@@ -39,5 +41,9 @@ class TargetPracticeTestCase < MiniTest::Unit::TestCase
 
   def meta_commands
     []
+  end
+
+  def perform_meta_assertion(obj, command, v)
+    @@meta_assertions[command].call(obj, v) if @@meta_assertions[command]
   end
 end
