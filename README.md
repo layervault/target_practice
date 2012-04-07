@@ -50,9 +50,8 @@ And my PSD test harness:
         end
       end
 
-      def do_file_test(file)
-        puts "Starting test for #{file}"
-        test_data = JSON.parse(File.open(file, 'r').read)
+      def do_file_test(test_data)
+        puts "Starting test for #{test_data['_file']}"
         assert test_data["_file"], "Input file was not provided!"
         psd = PSD.from_file(TP_ROOT + test_data["_file"])
         psd.parse
