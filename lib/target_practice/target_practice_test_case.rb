@@ -36,14 +36,10 @@ class TargetPracticeTestCase < MiniTest::Unit::TestCase
   end
 
   def is_meta_command?(v)
-    meta_commands.include? v
-  end
-
-  def meta_commands
-    []
+    @@meta_assertions.keys.include? v
   end
 
   def perform_meta_assertion(obj, command, v)
-    @@meta_assertions[command].call(obj, v) if @@meta_assertions[command]
+    @@meta_assertions[command].call(self, obj, v) if @@meta_assertions[command]
   end
 end
